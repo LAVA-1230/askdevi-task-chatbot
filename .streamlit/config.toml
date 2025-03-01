@@ -1,0 +1,7 @@
+[server]
+runOnSave = true
+enableCORS = false
+
+[runner]
+# This is the key setting - exclude torch from being watched
+moduleWatcherExcludedModules = ["torch"]
